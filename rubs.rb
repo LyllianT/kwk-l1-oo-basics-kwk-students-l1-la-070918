@@ -1,4 +1,6 @@
 class Klossy
+  attr_accessor :teachers, :student_amount, :location
+  
   def initialize(teachers, student_amount, location)
     @teachers = teachers
     
