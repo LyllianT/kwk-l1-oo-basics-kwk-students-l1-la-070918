@@ -10,5 +10,5 @@ class Book
     @page_count = page_count
   end
 end
-one_book = Book.new("Percy Jackson And The Sea Of Monsters", "Rick Riordan", "298")
+one_book = Book.new("And Then There Were None", "Rick Riordan", "298")
 puts one_book.title
