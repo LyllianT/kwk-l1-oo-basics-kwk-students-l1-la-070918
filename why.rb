@@ -11,4 +11,6 @@ class Book
   end
 end
 one_book = Book.new("And Then There Were None", "Rick Riordan", "298")
-puts one_book
+puts one_book.title
+puts one_book.author
+puts one_book.page_count
